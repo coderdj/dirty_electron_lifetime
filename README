@@ -1,0 +1,21 @@
+Dirty electron lifetime
+D. Coderre 7.2.2017
+
+Seriously, don't use any of this for more than a basic example.
+
+Included files:
+
+make_waveform.py   : edit this with your mongodb collection and connection info to plot
+		     things from the database.
+
+extract_data.py	   : give it a mongo repo with raw data. It will extract peaks, give
+		     them some (really rough!) basic properties and save them to a
+		     pickle file.
+
+matchpeaks.py	   : using the output from extract_data.py, put the peaks together to
+		     form interactions in the most embarassingly simple way possible.
+		     Plot things from interactions (or you can save to another file to
+		     do that).
+
+
+Have fun.
